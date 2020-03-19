@@ -1,0 +1,39 @@
+﻿  json_document.cpp
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\itype.hpp(110,1): error C3317: '<unknown>': an overload function cannot be used as the expression in a range-based for statement
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\itype.hpp(119,1): error C3317: '<unknown>': an overload function cannot be used as the expression in a range-based for statement
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\itype.hpp(122,1): error C2100: illegal indirection
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678: binary '==': no operator found which takes a left-hand operand of type '_Ty' (or there is no acceptable conversion)
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:         with
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:         [
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:             _Ty=std::pair<std::string,IType *>
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\exception(290,24): message : could be 'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\exception(286,24): message : or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\exception(282,24): message : or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  program.cpp
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message : while trying to match the argument list '(_Ty, const std::string)'
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :         with
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :         [
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :             _Ty=std::pair<std::string,IType *>
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :         ]
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\itype.hpp(110,1): error C3317: '<unknown>': an overload function cannot be used as the expression in a range-based for statement
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\itype.hpp(119,1): error C3317: '<unknown>': an overload function cannot be used as the expression in a range-based for statement
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\itype.hpp(122,1): error C2100: illegal indirection
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678: binary '==': no operator found which takes a left-hand operand of type '_Ty' (or there is no acceptable conversion)
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:         with
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:         [
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:             _Ty=std::pair<std::string,IType *>
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): error C2678:         ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\system_error(232,24): message : could be 'bool std::operator ==(const std::error_condition &,const std::error_condition &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\system_error(227,24): message : or       'bool std::operator ==(const std::error_condition &,const std::error_code &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\system_error(222,24): message : or       'bool std::operator ==(const std::error_code &,const std::error_condition &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\system_error(217,24): message : or       'bool std::operator ==(const std::error_code &,const std::error_code &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\exception(290,24): message : or       'bool std::operator ==(const std::exception_ptr &,std::nullptr_t) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\exception(286,24): message : or       'bool std::operator ==(std::nullptr_t,const std::exception_ptr &) noexcept'
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.23.28105\include\exception(282,24): message : or       'bool std::operator ==(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  Generating Code...
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message : while trying to match the argument list '(_Ty, const std::string)'
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :         with
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :         [
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :             _Ty=std::pair<std::string,IType *>
+C:\Users\Korbin Cardoza\Documents\GitHub\final-programming-assignment-KorbinCardoza-master\MiniJsonParser\json_document.hpp(58,25): message :         ]
